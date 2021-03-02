@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1">
+
+
+
+        <TextView
+            android:id="@+id/order"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_successful"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/getname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order"
+            android:layout_marginTop="84dp"
+            android:textSize="20dp" />
+
+        <!--<TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getname"
+            android:id="@+id/getdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getdetails"
+            android:id="@+id/getltp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getltp"
+            android:id="@+id/getchangeper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getchangeper"
+            android:id="@+id/getchangeprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getchangeprice"
+            android:id="@+id/getqty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/getqty"
+            android:id="@+id/getprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>-->
+    </RelativeLayout>
+</LinearLayout>
